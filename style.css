@@ -1,0 +1,288 @@
+html {
+  font-family:  sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.MCR {
+  text-align:center;
+}
+
+.active2 {
+  
+}
+
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background:#1a1a1a;
+}
+
+nav li{
+  float: left;
+}
+
+nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+/* header{
+  background: #D4E4BC;
+  height: 500px;
+  text-align: center;
+} */
+
+header h1{
+  text-align: center;
+}
+
+#banner{
+  width: 100%;
+  height: 500px;
+}
+
+/*História*/
+.history {
+  scroll-behavior: smooth;
+}
+
+.history-body {
+  background-color: #0a0a0a;
+  color: #878d86;
+}
+
+.text-holder p {
+  font-size: 15px;
+  text-align: justify;
+  padding: 0 40px
+}
+
+
+.text-holder h3, .text-holder h1 {
+  text-align: center;
+  color: #878d86;
+}
+
+
+.text-holder iframe{
+  display:block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.text-holder {
+  height: 100vh;
+}
+
+.text-holder h1 {
+  padding: 10px;
+}
+
+.video {
+  margin: 0 15%;
+}
+
+.arrowdown img{
+  height: 40px;
+  width: 45px;
+  float: right; 
+  padding: 0 50px 50px 0 
+}
+
+
+.arrowup img {
+  transform: rotate(180deg);
+  height: 40px;
+  width: 45px;
+  float: right; 
+  padding: 0 50px 0 0 
+}
+.album img {
+  width: 350px;
+  float: center;
+}
+
+.text-org {
+  width: 90%;
+  display:flex;
+  }
+
+.text-org-two {
+   width: 90%;
+  display:flex;
+  padding: 100px 0;
+}
+
+.festival {
+  height: 500px;
+  padding: 20px 40px;
+}
+
+/* Coisas do Footer*/
+footer{
+  background: #1a1a1a;
+  /* width: 300px; */
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+footer p{
+  color: white;
+}
+
+footer img {
+  height: 35px;
+  padding-left:20px;
+}
+
+.contact {
+  justify-content: space-between;
+  width: 300px;
+  margin: auto;
+  
+}
+
+/* Integrantes */
+
+main h1{
+  text-align:center;
+}
+
+main h3{
+  font:bold;
+}
+
+main p{
+  padding-left:50px;
+  padding-right:50px;
+}
+
+main div{
+  text-align:center;
+}
+
+.photo{
+  padding-bottom:50px;
+  width: 300px;
+  height: 300px;
+}
+
+main{
+  background: #070707;
+  color: white;
+}
+
+
+/* contato */
+.contact-holder {
+  padding: 50px;
+  margin: 0;
+}
+
+.contact-holder input {
+  width: 300px;
+  height:  25px;
+  border-radius:8px;
+}
+
+input::placeholder {
+  font-style: italic;
+  padding-left:10px;
+}
+
+textarea::placeholder {
+  font-style: italic;
+  padding-left: 10px;
+}
+
+textarea{
+  border-radius: 8px;
+  resize: none;
+}
+
+textarea::placeholder{
+  padding-left:10px;
+  padding-top:5px;
+}
+
+#formButton{
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #3b3b3b; 
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#formButton:hover { 
+  background-color: #4d4d4d; 
+}
+
+/* agenda */
+.show {
+  text-align: left;
+  margin: 10px; 
+}
+
+.calendario {
+  float: left;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+
+/*.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+.data {
+  text-align: left;
+}
+
+.titulos-show {
+  text-align: center;
+  width: 100%;
+}
+
+.button-info {
+  float: right;
+  background-color: #3b3b3b; 
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-info:hover { 
+  background-color: #4d4d4d; 
+}
+
+.informacoes-show {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
